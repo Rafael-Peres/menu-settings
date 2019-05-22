@@ -1,0 +1,17 @@
+.fas, .fab {
+	font-size: 4rem;
+	color: #104e8b;
+}
+.col-md-6, .col-xl-4 {
+	&:hover {
+		.fas, .fab {
+				color: grey;
+		}
+		border: 0.01em solid grey;
+	}
+}
+
+
+.d-flex {
+	padding-top: 0.5em;
+}

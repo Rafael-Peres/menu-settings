@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+
+    <title>Menu</title>
+    <link rel="stylesheet" href="../configuration/css/bootstrap.css">
+    <link rel="stylesheet" href="../configuration/css/menu.css">
+    <link rel="stylesheet" type="text/css" href="../configuration/css/style.css">
+    <link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/all.min.css">
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <!-- Sidebar  -->
+      <nav id="sidebar">
+        <div class="sidebar-header">
+          <h3>Alliance</h3>
+          <strong>AL</strong>
+        </div>
+        <ul class="list-unstyled components">
+
+          <li>
+              <a href="#">
+                  <i class="fas fa-tachometer-alt"></i>
+                  Dashboard
+              </a>
+              <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+                  <i class="fas fa-user-md"></i>
+                  Diagnósticos
+              </a>
+              <ul class="collapse list-unstyled" id="pageSubmenu">
+                  <li>
+                      <a href="#"><i class="fas fa-x-ray"></i>Imagens Leves</a>
+                  </li>
+              </ul>
+              
+          </li>
+          <li>
+            <a href="#pageSubmenu1" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+                <i class="fas fa-plug"></i>
+                Gerenciamento
+            </a>
+            <ul class="collapse list-unstyled" id="pageSubmenu1">
+                <li>
+                    <a href="#"><i class="fas fa-plug"></i>Módulos</a>
+                </li>
+                <li>
+                  <a href="#"><i class="fas fa-user"></i>Usuários</a>
+              </li>
+            </ul>
+            
+        </li>
+          <li>
+              <a href="../configuration/configuration.html">
+                  <i class="fas fa-cog"></i>
+                  Configuração
+              </a>
+          </li>
+        </ul>
+        <div class="dropdown">
+                <button class="btn btn-dark dropdown-toggle rounded-circle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  RP
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="#">Logout</a>
+                </div>
+              </div>
+      </nav>
+
+          <!-- Page Content  -->
+          <div id="content">
+
+            <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid"> -->
+
+              <button type="button" id="sidebarCollapse" class="btn btn-info">
+                  <i class="fas fa-align-left"></i>
+              </button>
+              <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <i class="fas fa-align-justify"></i>
+              </button>
+            
+
+              <!-- </nav> -->
+              <section class="py-1 px-1 text-center">
+                  <div class="container">
+                      <div class="row customization">
+                          <div class="col-xl-6 col-md-6 my-1" >
+                            <div class="d-flex justify-content-center">
+                              <i class="fas fa-language"></i>
+                            </div>
+                            <h4>Languages</h4>
+                            <p>Idiomas, fontes</p>
+                        </div>
+            
+                        <div class="col-xl-6 col-md-6 my-1" >
+                          <div class="d-flex justify-content-center">
+                          <i class="fas fa-adjust"></i>
+                          </div>
+                          <h4>Themes</h4>
+                          <p>Atualizações</p>
+                        </div>
+                      </div>
+                      <div class="text-center">
+                          <a href="configuration.html" class="btn btn-primary btn-lg mt-4">Voltar</a>
+                      </div>
+                    </div>
+                </section>
+            </div>
+
+      <!-- jQuery CDN - Slim version (=without AJAX) -->
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <!-- Popper.JS -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+      <!-- Bootstrap JS -->
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+      <script type="text/javascript">
+        $(document).ready(function () {
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar').toggleClass('active');
+            });
+        });
+        </script>          
+  </body>
+
+</html>

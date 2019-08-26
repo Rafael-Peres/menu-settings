@@ -1,17 +1,1 @@
-.fas, .fab {
-  font-size: 4rem;
-  color: #104e8b;
-}
-
-.col-md-6:hover, .col-xl-4:hover {
-  border: 0.01em solid grey;
-}
-.col-md-6:hover .fas, .col-md-6:hover .fab, .col-xl-4:hover .fas, .col-xl-4:hover .fab {
-  color: grey;
-}
-
-.d-flex {
-  padding-top: 0.5em;
-}
-
-/*# sourceMappingURL=style.css.map */
+.col-md-6 .fas,.col-md-6 .fab,.col-xl-4 .fas,.col-xl-4 .fab,.col-xl-12 .fas,.col-xl-12 .fab,.col-xl-3 .fas,.col-xl-3 .fab,.col-md-3 .fas,.col-md-3 .fab,.col .fas,.col .fab,.align-self-center .fas,.align-self-center .fab{font-size:4rem;color:#104e8b}.col-md-6:hover,.col-xl-4:hover,.col-xl-12:hover,.col-xl-3:hover,.col-md-3:hover,.col:hover,.align-self-center:hover{border:.01em solid gray}.col-md-6:hover .fas,.col-md-6:hover .fab,.col-xl-4:hover .fas,.col-xl-4:hover .fab,.col-xl-12:hover .fas,.col-xl-12:hover .fab,.col-xl-3:hover .fas,.col-xl-3:hover .fab,.col-md-3:hover .fas,.col-md-3:hover .fab,.col:hover .fas,.col:hover .fab,.align-self-center:hover .fas,.align-self-center:hover .fab{color:gray}.d-flex{padding-top:.9em}/*# sourceMappingURL=style.css.map */
